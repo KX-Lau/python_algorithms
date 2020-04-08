@@ -8,6 +8,7 @@ class Solution:
     """反转链表, 输出表头"""
 
     def ReverseList(self, pHead):
+
         # 空链表或链表只有一个结点
         if pHead is None or pHead.next is None:
             return pHead
@@ -21,6 +22,3 @@ class Solution:
             pre = cur_node
             cur_node = p_next
         return pre
-
-
-

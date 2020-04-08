@@ -20,5 +20,3 @@ class Solution:
                 self.output_stack.append(self.accept_stack.pop())
 
         return self.output_stack.pop()
-
-
